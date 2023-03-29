@@ -1,8 +1,8 @@
 import { useCounter } from "../hooks/useCounter";
 import { useFetch } from "../hooks/useFetch"
-import { LandingQuote, Quote } from "./";
+import { LandingQuote, Quote } from "../03-examples";
 
-export const MultipleCustomHooks = () => {
+const Layout = () => {
     const{counter, increment} =useCounter(1);
 
 
@@ -30,6 +30,6 @@ export const MultipleCustomHooks = () => {
   )
 }
 
-export default MultipleCustomHooks
+export default Layout
  
 
